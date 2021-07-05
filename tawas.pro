@@ -7,6 +7,19 @@
 ; Email: c.boocock@qmul.ac.uk
 ; Date : 1st July 2021
 
+; Copyright (C) 2021      Callum Boocok <c.boocock@qmul.ac.uk>
+;
+; This program is free software: you can redistribute it and/or modify
+; it under the terms of the GNU General Public License as published by
+; the Free Software Foundation, either version 3 of the License, or
+; any later version.
+;
+; This program is distributed in the hope that it will be useful,
+; but WITHOUT ANY WARRANTY; without even the implied warranty of
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+; GNU General Public License for more details:
+! <http://www.gnu.org/licenses/>.
+
 pro tawas
 
   TIC
@@ -22,11 +35,11 @@ pro tawas
 ; resolution and domain dimensions
   rsize = 100
   zsize = 400
-  rdim = 50.0d6
+  rdim = 40.0d6
   zdim = 100.0d6
 ; Scale heights, tube radius and density contrast
-  H = 50.0d6
-  alpha = 1.0d0
+  H = 20.0d6
+  alpha = 0.0d0
   r0 = 5.0d6
   zeta = 5.0d0
 ; wave amplitude, frequency and phase
@@ -338,7 +351,7 @@ pro tawas
 ;; Calculate integrand for wave energy
   for i = 0,rsize do begin
      for j = 0,zsize do begin
-        waven(i,j) = !dpi*(u0^2.0d0)*b0*H*(W(i,j)^2.0d0)*sqrt(rho(i,j)/mu0)
+        waven(i,j) = ((!dpi*b0*H)/mu0)*(real_part(v_env[i,j])*real_part(b_env[i,j]))
      endfor
   endfor
 
@@ -433,3 +446,4 @@ pro tawas
   TOC
 
 end
+
