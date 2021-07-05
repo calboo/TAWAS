@@ -1,3 +1,12 @@
+; tawas.pro
+; An IDL script for solving the wave equation for torsional Alfven waves propogating in a viscous plasma
+; in static equilibrium, with an axisymmetric, force-free magnetic field with no azimuthal component.
+; 
+; Author: Callum Boocock
+; Institution: QMUL
+; Email: c.boocock@qmul.ac.uk
+; Date : 1st July 2021
+
 pro tawas
 
   TIC
