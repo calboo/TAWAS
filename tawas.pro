@@ -39,7 +39,7 @@ pro tawas
   zdim = 100.0d6
 ; Scale heights, tube radius and density contrast
   H = 20.0d6
-  alpha = 0.0d0
+  alpha = 0.0d0 ; NB alpha = H/H_rho
   r0 = 5.0d6
   zeta = 5.0d0
 ; wave amplitude, frequency and phase
