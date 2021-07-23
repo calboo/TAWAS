@@ -392,16 +392,7 @@ pro norefl
   endif
 
 ;;  Save to data files
-  save, rho, filename= save_loc+'/rho.sav'
-  save, phi, filename= save_loc+'/phi.sav'
-  save, psi, filename= save_loc+'/psi.sav'
-  save, hparam, filename= save_loc+'/h.sav'
-  save, W, filename= save_loc+'/w.sav'
-  save, v_env, filename= save_loc+'/v_env.sav'
-  save, b_env, filename= save_loc+'/b_env.sav'
-  save, v, filename= save_loc+'/v.sav'
-  save, bwave, filename= save_loc+'/b.sav'
-  save, sigma, filename= save_loc+'/sigma.sav'
+
   save, br, filename= save_loc+'/br.sav'
   save, bz, filename= save_loc+'/bz.sav' 
   save, rho, filename= save_loc+'/rho.sav'
@@ -414,8 +405,6 @@ pro norefl
   save, v, filename= save_loc+'/v.sav'
   save, bwave, filename= save_loc+'/b.sav'
   save, sigma, filename= save_loc+'/sigma.sav'
-  save, br, filename= save_loc+'/br.sav'
-  save, bz, filename= save_loc+'/bz.sav'
   save, zscale, filename= save_loc+'/zscale.sav'
   save, hscale, filename= save_loc+'/hscale.sav'
   save, en_lvl, filename= save_loc+'/en_lvl_0.sav'
