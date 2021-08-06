@@ -25,7 +25,7 @@ The parameters that can be changed are at the begining of the code. These parame
 | period | wave period in seconds                                           |
 | t0     | wave phase of solution as time in seconds (usually left as zero) |
 
-## Output
+## Outputs
 
 
 | Output | Format | Description |
@@ -46,4 +46,9 @@ The parameters that can be changed are at the begining of the code. These parame
 | hscale       | 1D array, real       | Array of the heights at which each magnetic surface intersects the z-axis, in units of H          |
 | en_lvl       | 1D array, real       | Array of wave energy flux across each magnetic surface in Watts                                   |
 | en_lvl_norm  | 1D array, real       | Array of wave energy flux across each magnetic surface normalised by the wave energy flux at the lowest surface |
+
+## Calculations
+
+
+### sjndoajdoajd
 
