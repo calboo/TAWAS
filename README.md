@@ -29,7 +29,7 @@ The parameters that can be changed are at the begining of the code. These parame
 
 
 | Output | Format | Description |
-| --- | --- | --- |
+| --- | ----- | --- |
 | br           | 2D array, real       | background magnetic field in radial direction        |
 | bz           | 2D array, real       | background magnetic field in vertical direction      |
 | rho          | 2D array, real       | density across domain                                |
