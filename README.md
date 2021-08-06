@@ -3,6 +3,8 @@ An idl script for solving the wave equation for torsional Alfven waves in a visc
 
 ## Usage
 
+The code can be run simply using IDL. The code requires no inputs but the user is able to change the problem parameters at the top of the code, the parameters are listed in the first table below. The code outputs include solutions for the azimuthal velocity perturbation, the azimuthal magnetic field perturbation and the wave energy across magnetic surfaces that intersect the vertical axis at different heights. The outputs are saved as .sav files and are listed in the second table below.
+
 ## Parameters
 
 The parameters that can be changed are at the begining of the code. These parameters are:
@@ -19,9 +21,8 @@ The parameters that can be changed are at the begining of the code. These parame
 | alpha  | &alpha; parameter, defines density scale height through 	&alpha; = H/H<sub>&rho;</sub>    |
 | r0     | radius of central higher density tube                            |
 | zeta   | density contrast between tube centre and background density      |
-| u0     | Alf          breve over -- \u{o}                   |
-| zeta   | density contrast between tube centre and background density      |
-| r0     | radius of central higher density tube                            |
-| zeta   | density contrast between tube centre and background density      |
+| u0     | Alfv&egrave;n wave velocity amplitude in ms<sup>&-1;</sup>       |
+| period | wave period in seconds                                           |
+| t0     | wave phase of solution as time in seconds (usually left as zero) |
 
 
