@@ -52,3 +52,5 @@ The parameters that can be changed are at the begining of the code. These parame
 
 ### subsection
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
