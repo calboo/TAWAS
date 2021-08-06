@@ -51,7 +51,7 @@ The parameters that can be changed are at the begining of the code. These parame
 
 We begin by calculating the Alfv&egrave;n speed and the value of the curvilinear coordinate &psi; at the tube boundary:
 
-<img src="https://render.githubusercontent.com/render/math?math=V_0 = \frac{B_0}{\sqrt{\mu_0 \rho_0}}">
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle V_0 = \frac{B_0}{\sqrt{\mu_0 \rho_0}}">
 
 
 ### subsection
