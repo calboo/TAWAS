@@ -66,7 +66,6 @@ pro tawas
   r = findgen(rsize+1)*rdim/rsize
   z = findgen(zsize+1)*zdim/zsize
 ; background values 
-
   Br = dblarr(rsize+1,zsize+1)
   Bz = dblarr(rsize+1,zsize+1)
   B = dblarr(rsize+1,zsize+1)
