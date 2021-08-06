@@ -59,7 +59,7 @@ We begin by calculating the Alfv&egrave;n speed and the value of the curvilinear
 
 We then calculate the values for the curvilnear coordinates &phi; and &psi; across our r-z grid:
 
-<img src="https://render.githubusercontent.com/render/math?math=\displaystyle \phi = -H \exp\left(\frac{z}{H}\right)J_0(r/H) \qquad \psi = r \exp\left(\frac{z}{H}\right)J_1(r/H)">
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle \phi = -H \exp\left(\frac{z}{H}\right)J_0(left(\frac{r}{H}\right) \qquad \psi = r \exp\left(\frac{z}{H}\right)J_1left(\frac{r}{H}\right)">
 
 ### subsection
 
