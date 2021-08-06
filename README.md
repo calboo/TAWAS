@@ -16,7 +16,7 @@ The parameters that can be changed are at the begining of the code. These parame
 | rdim   | dimension of domain in the radial direction                       |
 | zdim   | dimension of domain in the vertical direction                     |
 | H      | magnetic scale height                                             |
-| alpha  | alpha parameter, defines density scale height through \alpha      |
+| alpha  | alpha parameter, defines density scale height through $\alpha$      |
 | r0| FORTRAN module file for constants                  |
 | r0| FORTRAN module file for constants                  |
 
