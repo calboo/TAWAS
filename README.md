@@ -3,7 +3,11 @@ An idl script for solving the wave equation for torsional Alfven waves in a visc
 
 ## Usage
 
-The code can be run simply using IDL. The code requires no inputs but the user is able to change the problem parameters at the top of the code, the parameters are listed in the first table below. The code outputs include solutions for the azimuthal velocity perturbation, the azimuthal magnetic field perturbation and the wave energy flux across magnetic surfaces that intersect the vertical axis at different heights. The outputs are saved as .sav files and are listed in the second table below.
+The code can be run simply using IDL. The code requires no inputs but the user is able to change the problem parameters at the top of the code, the parameters are listed in the first table below. 
+
+Under the parameters the user can set the variable 'plotting' which decides which plots are shown by the script. The options for plotting are given in the code. The user can chose the location to save the outputs by changing the variables save_dir and run_name listed just below the parameters.
+
+The code outputs include solutions for the azimuthal velocity perturbation, the azimuthal magnetic field perturbation and the wave energy flux across magnetic surfaces that intersect the vertical axis at different heights. The outputs are saved as .sav files and are listed in the second table below.
 
 ## Parameters
 
@@ -53,6 +57,7 @@ We begin by calculating the Alfv&egrave;n speed and the value of the curvilinear
 
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle V_0 = \frac{B_0}{\sqrt{\mu_0 \rho_0}} \qquad \psi_b = r_0J_1\left(\frac{r_0}{H}\right)">
 
+We then calculate the values for the curvilnear coordinates
 
 ### subsection
 
