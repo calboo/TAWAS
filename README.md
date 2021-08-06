@@ -54,5 +54,5 @@ The parameters that can be changed are at the begining of the code. These parame
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
-<img src="https://render.githubusercontent.com/render/math?math=\int_0^1 e^{i \pi} dx">
+<img src="https://render.githubusercontent.com/render/math?math=\int_0^1 \quad e^{i \pi} dx">
 
