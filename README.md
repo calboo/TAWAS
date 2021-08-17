@@ -1,5 +1,5 @@
 # TAWAS
-An IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma in static equilibrium with an axisymmetric, force-free magnetic field with no azimuthal component. The solution is calculated over a uniform numerical grid in radius, r, and height, z. The solution is calculated using the analytical formula presented in NAMEOFPAPER. 
+An IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma in static equilibrium with an axisymmetric, force-free magnetic field with no azimuthal component. The solution is calculated over a uniform numerical grid with coordinates r and z for the radius and height respectively. The solution is calculated using the analytical formula presented in NAMEOFPAPER. 
 
 ## Usage
 
