@@ -1,9 +1,5 @@
 # TAWAS
-An IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma in static equilibrium with an axisymmetric, force-free magnetic field with no azimuthal component. This wave equation for the angular velocity u is:
-
-<img src="https://render.githubusercontent.com/render/math?math=\displaystyle \frac{\partial^2 u}{\partial t^2} = \frac{1}{\mu_0 \rho r^2}\mathbf{B}\cdot\nabla\left(r^2B\cdot\nabla u\right)%2B\nu\left(\frac{\partial}{\partial t}\frac{\partial^2 u}{\partial r^2}%2B\frac{\partial}{\partial t}\frac{\partial^2 u}{\partial z^2}\right)">
-
-The solution is calculated using the analytical formula presented in NAMEOFPAPER. 
+An IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma in static equilibrium with an axisymmetric, force-free magnetic field with no azimuthal component. The solution is calculated over a uniform numerical grid in radius, r, and height, z. The solution is calculated using the analytical formula presented in NAMEOFPAPER. 
 
 ## Usage
 
@@ -11,7 +7,7 @@ The code can be run simply using IDL. The code requires no inputs but the user i
 
 Under the parameters the user can set the variable 'plotting' which decides which plots are shown by the script. The options for plotting are given in the code. The user can chose the location to save the outputs by changing the variables save_dir and run_name listed just below the parameters.
 
-The code outputs include solutions for the azimuthal velocity perturbation, the azimuthal magnetic field perturbation and the wave energy flux across magnetic surfaces that intersect the vertical axis at different heights. The outputs are saved as .sav files and are listed in the second table below.
+The code outputs include solutions for the velocity perturbation, the magnetic field perturbation and the wave energy flux . The outputs are saved as .sav files and are listed in the second table below.
 
 ## Parameters
 
