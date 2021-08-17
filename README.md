@@ -1,5 +1,5 @@
 # TAWAS
-An idl script for solving the wave equation for torsional Alfven waves in a viscous plasma in static equilibrium with an axisymmetric, force-free magnetic field with no azimuthal component. This wave equation for the angular velocity u is:
+An IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma in static equilibrium with an axisymmetric, force-free magnetic field with no azimuthal component. This wave equation for the angular velocity u is:
 
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle \frac{\partial^2 u}{\partial t^2} = \frac{1}{\mu_0 \rho r^2}\mathbf{B}\cdot\nabla\left(r^2B\cdot\nabla u\right)%2B\nu\left(\frac{\partial}{\partial t}\frac{\partial^2 u}{\partial r^2}%2B\frac{\partial}{\partial t}\frac{\partial^2 u}{\partial z^2}\right)">
 
