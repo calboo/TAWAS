@@ -61,7 +61,9 @@ We then calculate the values for the curvilnear coordinates &phi; and &psi; acro
 
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle \phi = -H \exp\left(\frac{z}{H}\right)J_0\left(\frac{r}{H}\right) \qquad \psi = r \exp\left(\frac{z}{H}\right)J_1\left(\frac{r}{H}\right)">
 
-We also calculate the magnetic field components B<sub>r</sub>
+We also calculate the background magnetic field components B<sub>r</sub> and B<sub>z</sub> over the grid as well as the total magnetic field strength B:
+
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle B_0\exp\left(-\frac{z}{H}\right)J_1\left(\frac{r}{H}\right)">
 
 
 ### subsection
