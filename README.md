@@ -53,7 +53,7 @@ The parameters that can be changed are at the begining of the code. These parame
 
 ## Calculations
 
-We begin by calculating the Alfv&egrave;n speed and the value of the curvilinear coordinate &psi; at the tube boundary:
+We begin by calculating the Alfv&egrave;n speed across the domain and the value of the curvilinear coordinate &psi; at the tube boundary:
 
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle V_0 = \frac{B_0}{\sqrt{\mu_0 \rho_0}} \qquad \psi_b = r_0J_1\left(\frac{r_0}{H}\right)">
 
@@ -65,9 +65,13 @@ We also calculate the background magnetic field components B<sub>r</sub> and B<s
 
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle B_r = B_0\exp\left(-\frac{z}{H}\right)J_1\left(\frac{r}{H}\right)">
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle B_z = B_0\exp\left(-\frac{z}{H}\right)J_0\left(\frac{r}{H}\right)">
-<img src="https://render.githubusercontent.com/render/math?math=\displaystyle B = \sqrt{(B_r^2 %2B B_z^2)}">
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle B = \sqrt{B_r^2 %2B B_z^2}">
 
+And the density profile for the simulation, which is a function of &psi; and z:
 
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle\begin{cases} \frac{x^2-x}{x},& \text{if } x\geq 1\\0, & \text{otherwise}\end{cases}">
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle B_z = B_0\exp\left(-\frac{z}{H}\right)J_0\left(\frac{r}{H}\right)">
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle B = \sqrt{B_r^2 %2B B_z^2}">
 
 ### subsection
 
