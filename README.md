@@ -1,9 +1,9 @@
 # TAWAS
-An IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma in static equilibrium with an axisymmetric, force-free magnetic field with no azimuthal component. The solution is calculated over a uniform numerical grid with coordinates r and z for the radius and height respectively. The solution is calculated using the analytical formula presented in NAMEOFPAPER. 
+An IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma. The background magnetic field is axisymmetric and force-free with no azimuthal component and the plasma beta is assumed to be negligable. The solution is calculated over a uniform numerical grid with coordinates r and z for the radius and height respectively. The solution is calculated using the analytical formula presented in NAMEOFPAPER. 
 
 ## Usage
 
-The code can be run simply using IDL. The code requires no inputs but the user is able to change the problem parameters at the top of the code, the parameters are listed in the first table below. 
+TAWAS can be run simply using IDL. The code requires no inputs but the user is able to change the problem parameters at the top of the code, the parameters are listed in the first table below. 
 
 Under the parameters the user can set the variable 'plotting' which decides which plots are shown by the script. The options for plotting are given in the code. The user can chose the location to save the outputs by changing the variables save_dir and run_name listed just below the parameters.
 
@@ -60,6 +60,9 @@ We begin by calculating the Alfv&egrave;n speed and the value of the curvilinear
 We then calculate the values for the curvilnear coordinates &phi; and &psi; across our r-z grid:
 
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle \phi = -H \exp\left(\frac{z}{H}\right)J_0\left(\frac{r}{H}\right) \qquad \psi = r \exp\left(\frac{z}{H}\right)J_1\left(\frac{r}{H}\right)">
+
+We also calculate the magnetic field components B<sub>r</sub>
+
 
 ### subsection
 
