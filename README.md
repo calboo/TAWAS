@@ -65,7 +65,7 @@ We also calculate the background magnetic field components B<sub>r</sub> and B<s
 
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle B_r = B_0\exp\left(-\frac{z}{H}\right)J_1\left(\frac{r}{H}\right)">
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle B_z = B_0\exp\left(-\frac{z}{H}\right)J_0\left(\frac{r}{H}\right)">
-<img src="https://render.githubusercontent.com/render/math?math=\displaystyle B = \sqrt(B_r^2 \+B_z^2)">
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle B = \sqrt(B_r^2 %2B B_z^2)">
 
 
 
