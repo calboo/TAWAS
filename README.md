@@ -1,5 +1,9 @@
 # TAWAS
-An IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma. The background magnetic field is axisymmetric and force-free with no azimuthal component and the plasma beta is assumed to be negligable. The solution is calculated over a uniform numerical grid with coordinates r and z for the radius and height respectively. The solution is calculated using the analytical formula presented in NAMEOFPAPER. 
+TAWAS is an IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma. The background magnetic field is axisymmetric and force-free with no azimuthal component and the plasma beta is assumed to be negligable. The solution is calculated over a uniform numerical grid with coordinates r and z for the radius and height respectively. The solution is calculated using the analytical formula presented in NAMEOFPAPER. 
+
+## Calculations
+
+An in-depth explanation of the calculations made in this code can be found in the accompanying PDF document TAWAS Calculations.
 
 ## Usage
 
@@ -9,11 +13,7 @@ The code requires no inputs but the user is able to change the problem parameter
 
 The code outputs include solutions for the velocity perturbation, the magnetic field perturbation and the wave energy flux . The outputs are saved as .sav files and are listed in the second table below.
 
-## Calculations
-
-An in-depth explanation of the calculations mde in this code can be found in the accompanying PDF document TAWAS Calculations.
-
-## Parameters
+## Input Parameters
 
 The parameters that can be changed are at the begining of the code. These parameters are:
 
@@ -35,7 +35,6 @@ The parameters that can be changed are at the begining of the code. These parame
 
 ## Outputs
 
-
 | Output | Format | Description |
 | --- | ----- | --- |
 | br           | 2D array              | background magnetic field in radial direction        |
@@ -54,3 +53,5 @@ The parameters that can be changed are at the begining of the code. These parame
 | hscale       | 1D array              | heights at which each magnetic surface intersects the z-axis, in units of H   |
 | en_lvl       | 1D array              | wave energy flux across each magnetic surface in Watts                        |
 | en_lvl_norm  | 1D array              | wave energy flux normalised by the wave energy flux at the lowest surface     |
+
+## norefl and uncorr
