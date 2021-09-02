@@ -75,9 +75,6 @@ pro norefl
   sigma = dblarr(rsize+1,zsize+1)
   waven = dblarr(rsize+1,zsize+1)
 
-;;  Calculate psi at boundary
-  psib = r0*beselj(r0/H,1)
-
 ;;  Calculate characteristic Alfen speed
   v0 = b0/sqrt(mu0*rho0)
 
@@ -88,6 +85,9 @@ pro norefl
         psi(i,j) = r(i)*exp(-z(j)/H)*beselj(r(i)/H,1)
      endfor
   endfor
+
+;;  Calculate psi at boundary
+  psib = r0*beselj(r0/H,1)
 
 ;;  Calculate B-field, density and Alfven speed  
   for i = 0,rsize do begin
