@@ -275,7 +275,7 @@ pro tawas
      endfor
   endfor
 
-;; Calculate A0 and W
+;; Calculate A0 
   for i = 0,rsize do begin
      for j = 0,zsize do begin
 
