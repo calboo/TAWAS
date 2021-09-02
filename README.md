@@ -55,3 +55,5 @@ The parameters that can be changed are at the begining of the code. These parame
 | en_lvl_norm  | 1D array              | wave energy flux normalised by the wave energy flux at the lowest surface     |
 
 ## norefl and uncorr
+
+These scripts are modifications of TAWAS with the variable 'diss' changed to either: ignore the effect of reflecion, in the case of norefl; or to use an uncorrected form, &Upsilon; + R instead of  &Upsilon; - iR,  in the case of uncorr.
