@@ -97,7 +97,7 @@ pro tawas
   sigma = dblarr(rsize+1,zsize+1)
   waven = dblarr(rsize+1,zsize+1)
 
-;;  Calculate characteristic Alfen speed
+;;  Calculate characteristic Alfven speed
   v0 = b0/sqrt(mu0*rho0)
 
 ;;  Calculate field line coordinates
