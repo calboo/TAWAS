@@ -28,6 +28,8 @@ The parameters that can be changed are at the begining of the code. These parame
 | u0     | Alfv&egrave;n wave velocity amplitude in ms<sup>&-1;</sup>       |
 | period | wave period in seconds                                           |
 | t0     | wave phase of solution as time in seconds (usually left as zero) |
+| viscosity | kinematic viscosity |
+
 
 ## Outputs
 
