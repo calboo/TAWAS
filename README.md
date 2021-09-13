@@ -39,7 +39,7 @@ The parameters that can be changed are at the begining of the code. These parame
 | bz           | 2D array              | background magnetic field in vertical direction      |
 | rho          | 2D array              | density across domain                                |
 | phi          | 2D array              | curvilinear coorinate along field lines &phi;        |
-| psi          | 2D array              | curvilinear coorinate along field lines &psi;        |
+| psi          | 2D array              | curvilinear coorinate along magnetic surfaces &psi;        |
 | hparam       | 2D array              | phase parameter h , see below for more details       |
 | W            | 2D complex array      | wave parameter W , see below for more details        |
 | v_env        | 2D complex array      | envelope of the velocity perturbation                |
