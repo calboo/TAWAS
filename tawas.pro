@@ -43,7 +43,7 @@ pro tawas
   r0 = 5.0d6
   zeta = 5.0d0
 ; wave amplitude, frequency and phase
-  u0 = 1.0d3
+  u0 = 1.0d5
   period = 60.0d0
   omega = 2.0d0*!dpi/period
   t = 0.0d0 
