@@ -7,6 +7,10 @@ TAWAS can be run using IDL. The code requires no input files but the user is abl
 
 The code outputs include solutions for the velocity perturbation, the magnetic field perturbation and the wave energy flux . The outputs are saved as .sav files and are listed in the second table below.
 
+## Constraints
+
+The r and z dimensions of the domain, rdim and zdim, must be constraint according to the value of the magnetic scale height, H. The radial dimension rdim must not exceed 2.4048 H. At this point J0(r/H) = 0  and the direction of the magnetic field lines turns back in towards the lower boundary. Furthermore if zdim is large then the magnetic surfaces over which wave energy flux is calculated may not fit in the radial extent of the domain and the calculations will be incorrect. The user must check manually whether the magnetic surfaces fit within the domain by turning plotting to 1 or 4 and looking at IDL window 5 which plots the magnetic surfaces.
+
 ## Input Parameters
 
 The parameters that can be changed are at the begining of the code. These parameters are:
