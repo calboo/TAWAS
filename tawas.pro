@@ -1,3 +1,5 @@
+pro tawas
+
 ; tawas.pro
 ; An IDL script for solving the wave equation for torsional Alfven waves propogating in a viscous plasma
 ; in static equilibrium, with an axisymmetric, force-free magnetic field with no azimuthal component.
@@ -19,8 +21,6 @@
 ; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ; GNU General Public License for more details:
 ; <http://www.gnu.org/licenses/>.
-
-pro tawas
 
   TIC
 
