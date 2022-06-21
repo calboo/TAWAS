@@ -360,7 +360,7 @@ pro tawas
      contour,  alog(waven+1.0d-12), /fill, nlevels=100,XTITLE='r / Mm',YTITLE='z / Mm'
   endif
 
-;;  Integrate wave energy across field lines at each height 
+;;  Integrate wave energy across magnetic surfaces at each height 
 ;;  (also overplots paths for each integration)
 
   zscale = [] 
