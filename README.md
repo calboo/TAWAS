@@ -73,7 +73,8 @@ The IDL visulasation scripts that used TAWAS outputs to generate figures for the
 
 | Script | Description |
 | --- | --- |
-| plotgraphs.pro | Produces two panel plots comparing the azimuthal velocity and azimuthal magnetic field perturbation between TAWAS and Wigglewave outputs respectively, used to produce Figures 10 and 11.|
-| energy_graphs.pro | Produces a plot of the normalised wave energy flux across a given magnetic surface against height for TAWAS and Wigglewave outputs, used to produce Figures 12, 13 and 14 in Paper I.|
-| va_graph.pro | Plots a graph of equilibrium density and Alfv&egrave;n speed against radius at the lower boundary and a contour plot of the Alfv&egrave;n speed across the domain, used to produce Figures 1 and 2 in Paper II.|
-| vplot_wiggle.pro | Produces a graph of the azimuthal velocity against the radius, r, and height, z, for a specified Wigglewave output, used to produce Figure 3 in Paper II.|
+| plotgraphs.pro | A coloured contour of the density is plotted against the radius, r, and height, z,  A contour line is overplotted to show the position of the tube boundary, used to produce Figure 2. |
+| a.pro | FILL. |
+| a.pro | FILL. |
+| a.pro | FILL. |
+| a.pro | FILL. |
