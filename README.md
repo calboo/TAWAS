@@ -74,7 +74,7 @@ The IDL visulasation scripts that used TAWAS outputs to generate figures for the
 | Script | Description |
 | --- | --- |
 | plotgraphs.pro | A coloured contour of the density is plotted against the radius, r, and height, z,  A contour line is overplotted to show the position of the tube boundary, used to produce Figure 2. |
-| a.pro | FILL. |
-| a.pro | FILL. |
-| a.pro | FILL. |
-| a.pro | FILL. |
+| solution_examples.pro | Coloured contours of both the azimuthal velocity and magnetic field perturbations are plotted againt the radius, z, and height, z. Additionally a line plot of the normalised wave energy flux is plotted against height,used to produce Figures 3, 4 and 5. |
+| results.pro | The normalised wave energy flux is plotted against height for six different sets of parameters, on each graph the wave energy flux is plot using the outputs of norefl.pro, uncorr.pro and tawas.pro, used to produce Figures 6 and 7.| 
+| scale_grid.pro | A colourful contour of the normalised wave energy flux, across the highest magnetic surface, is plotted against magnetic and density scale heights, used to produce Figure 8.|
+| visc_period_grid.pro | A colourful contour of the normalised wave energy flux, across the highest magnetic surface, is plotted against viscosity and wave period, used to produce Figure 9.|
