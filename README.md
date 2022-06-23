@@ -4,7 +4,7 @@ TAWAS is an IDL script for solving the wave equation for Torsional Alfv&egrave;n
 
 The solution is calculated using the analytical formula presented in the paper:
 
-Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions https://academic.oup.com/mnras/article-abstract/510/2/1910/6449388?redirectedFrom=fulltext 
+Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions, https://academic.oup.com/mnras/article-abstract/510/2/1910/6449388?redirectedFrom=fulltext 
 
 This paper makes extensive use of the TAWAS code for considering the role of wave reflection, running paprameters studies and for comparing the analytical solutions to exact solutions of the linearised governing equations, calculated using the Wigglewave code.
 
