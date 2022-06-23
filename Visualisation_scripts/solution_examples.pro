@@ -2,7 +2,7 @@ pro solution_examples
 
 ;; DESCRIPTION
 
-; IDL script used to produce Figures 3,4 and 5 in the paper,
+; IDL script used to produce Figures 3, 4 and 5 in the paper,
 ; Enhanced phase mixing of torsional Alfven waves in stratified and
 ; divergent solar coronal structures – Paper I. Linear solutions
 ; C.Boocock and D.Tsiklauri
