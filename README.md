@@ -1,12 +1,12 @@
 # TAWAS
 
-TAWAS is an IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma. The background magnetic field is axisymmetric and force-free with no azimuthal component and the plasma beta is assumed to be negligible. The solution is calculated over a uniform numerical grid with coordinates r and z for the radius and height respectively. An in-depth explanation of the calculations made in this code can be found in the accompanying PDF document TAWAS Calculations.
+TAWAS is an IDL script for solving the wave equation for Torsional Alfv&egrave;n Waves (TAWs) propagating in a viscous plasma. The background magnetic field is axisymmetric and force-free with no azimuthal component, and the plasma beta is assumed to be negligible. The solution is calculated over a uniform numerical grid with coordinates r and z for the radius and height respectively. An in-depth explanation of the calculations made in this code can be found in the accompanying PDF document TAWAS Calculations.
 
-The solution is calculated using the analytical formula presented in:
+The solution is calculated using the analytical formula presented in the paper:
 
 Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions https://academic.oup.com/mnras/article-abstract/510/2/1910/6449388?redirectedFrom=fulltext 
 
-which also makes extensive use of the TAWAS code.
+This paper makes extensive use of the TAWAS code for considering the role of wave reflection, running paprameters studies and for comparing the analytical solutions to exact solutions of the linearised governing equations, calculated using the Wigglewave code.
 
 ## Usage
 
