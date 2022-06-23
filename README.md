@@ -1,5 +1,12 @@
 # TAWAS
-TAWAS is an IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma. The background magnetic field is axisymmetric and force-free with no azimuthal component and the plasma beta is assumed to be negligible. The solution is calculated over a uniform numerical grid with coordinates r and z for the radius and height respectively. The solution is calculated using the analytical formula presented in https://academic.oup.com/mnras/article-abstract/510/2/1910/6449388?redirectedFrom=fulltext. An in-depth explanation of the calculations made in this code can be found in the accompanying PDF document TAWAS Calculations.
+
+TAWAS is an IDL script for solving the wave equation for torsional Alfv&egrave;n waves in a viscous plasma. The background magnetic field is axisymmetric and force-free with no azimuthal component and the plasma beta is assumed to be negligible. The solution is calculated over a uniform numerical grid with coordinates r and z for the radius and height respectively. An in-depth explanation of the calculations made in this code can be found in the accompanying PDF document TAWAS Calculations.
+
+The solution is calculated using the analytical formula presented in:
+
+Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions https://academic.oup.com/mnras/article-abstract/510/2/1910/6449388?redirectedFrom=fulltext 
+
+which also makes extensive use of the TAWAS code.
 
 ## Usage
 
@@ -9,7 +16,9 @@ The code outputs include solutions for the velocity perturbation, the magnetic f
 
 ## Constraints
 
-The r and z dimensions of the domain, rdim and zdim, must be constraint according to the value of the magnetic scale height, H. The radial dimension rdim must not exceed 2.4048 H. At this point the code encounters a singularity as the direction of the magnetic field lines turns back in towards the lower boundary. Furthermore if zdim is large then the magnetic surfaces over which wave energy flux is calculated may not fit in the radial extent of the domain and the calculations will be incorrect. The user must check manually whether the magnetic surfaces fit within the domain by turning plotting to 1 or 4 and looking at IDL window 5 which plots the magnetic surfaces.
+The r and z dimensions of the domain, rdim and zdim, must be constrained according to the value of the magnetic scale height, H. The radial dimension rdim must not exceed 2.4048 H. At this point the code encounters a singularity as the direction of the magnetic field lines turns back in towards the lower boundary.
+
+Furthermore if zdim is large then the magnetic surfaces over which wave energy flux is calculated may not fit in the radial extent of the domain and the calculations will be incorrect. The user must check manually whether the magnetic surfaces fit within the domain by turning plotting to 1 or 4 and looking at IDL window 5 which plots the magnetic surfaces.
 
 ## Input Parameters
 
@@ -57,3 +66,14 @@ The parameters that can be changed are at the begining of the code. These parame
 ## norefl and uncorr
 
 These scripts are modifications of TAWAS with the variable 'diss' changed to either: ignore the effect of reflecion, in the case of norefl; or to use an uncorrected form, &Upsilon; + R instead of  &Upsilon; - iR,  in the case of uncorr.
+
+## Visualisation scripts
+
+The IDL visulasation scripts that used TAWAS outputs to generate that were used in the papers can be found in under Visualisation_scripts. The purpose of each script is as follows:
+
+| Script | Description |
+| --- | --- |
+| plotgraphs.pro | Produces two panel plots comparing the azimuthal velocity and azimuthal magnetic field perturbation between TAWAS and Wigglewave outputs respectively, used to produce Figures 10 and 11 in Paper I.|
+| energy_graphs.pro | Produces a plot of the normalised wave energy flux across a given magnetic surface against height for TAWAS and Wigglewave outputs, used to produce Figures 12, 13 and 14 in Paper I.|
+| va_graph.pro | Plots a graph of equilibrium density and Alfv&egrave;n speed against radius at the lower boundary and a contour plot of the Alfv&egrave;n speed across the domain, used to produce Figures 1 and 2 in Paper II.|
+| vplot_wiggle.pro | Produces a graph of the azimuthal velocity against the radius, r, and height, z, for a specified Wigglewave output, used to produce Figure 3 in Paper II.|
