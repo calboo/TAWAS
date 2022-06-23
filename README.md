@@ -69,7 +69,7 @@ These scripts are modifications of TAWAS with the variable 'diss' changed to eit
 
 ## Visualisation scripts
 
-The IDL visulasation scripts that used TAWAS outputs to generate figures for the paper, Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions, can be found in under Visualisation_scripts. The purpose of each script is as follows:
+The IDL visulasation scripts that used TAWAS outputs to generate figures for the paper, *Enhanced phase mixing of torsional Alfvén waves in stratified and divergent solar coronal structures – Paper I. Linear solutions*, can be found in under Visualisation_scripts. The purpose of each script is as follows:
 
 | Script | Description |
 | --- | --- |
